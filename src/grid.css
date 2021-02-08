@@ -1,0 +1,47 @@
+.project_grid {
+  text-align: left;
+  display: grid;
+
+  margin: 7vw 0vw;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-auto-rows: 20vw;
+  grid-gap: 2vw;
+}
+
+.blog_grid {
+  text-align: left;
+  display: grid;
+
+  margin: 5vw 0vw;
+  grid-template-columns: 22vw 22vw 22vw;
+  grid-auto-rows: 26vw;
+  grid-gap: 5vw;
+}
+
+.viewall_btn {
+  font-size: 2vw;
+  font-weight: bolder;
+
+  background-color: white;
+  color: black;
+
+  border: 2px solid white;
+  border-radius: 99px;
+
+  padding: 1vw 2vw;
+  margin-bottom: 10vw;
+}
+
+.viewall_btn:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.try {
+  background-color: red;
+  color: yellow;
+}
+
+.heading {
+  margin-top: 8vw;
+}

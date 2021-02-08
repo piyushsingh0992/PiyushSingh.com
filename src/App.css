@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.app {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.stars {
+  background: black
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.twinkling {
+  width: 100%;
+  height: 100%;
+  background: transparent
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png")
+    repeat;
+  background-size: 1000px 1000px;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+
+  animation: twinkling 5s infinite linear;
+
+  background-attachment: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes twinkling {
   from {
-    transform: rotate(0deg);
+    transform: translate3d(-20vw, 0px, 0px);
   }
   to {
-    transform: rotate(360deg);
+    transform: translate3d(50vw, 0px, 0px);
+  }
+}
+
+.clouds {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: transparent url("cloud.png") repeat;
+  position: absolute;
+
+  top: 0px;
+  right: 0px;
+  z-index: 3;
+
+  animation: clouds1 30s infinite linear;
+}
+
+@keyframes clouds1 {
+  from {
+    transform: translate3d(-50vw, 0px, 0px);
+  }
+  to {
+    transform: translate3d(60vw, 0px, 0px);
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .clouds {
+    display: none;
+  }
+
+  .twinkling {
+    animation: twinkling 3s infinite linear;
   }
 }

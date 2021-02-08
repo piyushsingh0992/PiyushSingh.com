@@ -1,0 +1,18 @@
+.alphabet_hover {
+  display: inline-block;
+  transform: scale(1.6) rotate(10deg);
+  color: yellow;
+  z-index: 10000;
+}
+
+.alphabet {
+  display: inline;
+  transform: scale(1);
+  color: white;
+  z-index: 10000;
+}
+
+.TextHandler > span {
+  transition: all 0.01s linear;
+  font-size: 4vw;
+}

@@ -1,0 +1,87 @@
+.hero {
+  position: relative;
+  height: 90vh;
+  padding: 4vw;
+}
+
+.hero_intro > div {
+  position: relative;
+  margin: 2vw 0vw;
+  z-index: 4;
+}
+.hero h1 {
+  line-height: 1.3;
+}
+
+.social_media_handles {
+  display: inline-block;
+
+  background-color: white;
+  color: black;
+
+  padding: 0.5vw;
+
+  margin-right: 1vw;
+  border-radius: 100%;
+}
+
+.social_media_handles:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.hero_nav_btn {
+  font-size: 2vw;
+  font-weight: bolder;
+  padding: 0.6vw 1vw;
+  border-radius: 99px;
+  margin-right: 1vw;
+
+  border: 0.3vw solid white;
+}
+
+.primary {
+  background-color: white;
+  color: black;
+}
+
+.primary:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.secondary {
+  background-color: transparent;
+  color: white;
+}
+
+.secondary:hover {
+  background-color: white;
+  color: black;
+}
+
+.moon {
+  height: 33.5vw;
+  object-fit: contain;
+  position: absolute;
+  top: 3vw;
+  right: 3vw;
+  z-index: 2;
+
+  background-attachment: fixed;
+
+  transition: all 0.1s ease;
+}
+
+@media only screen and (max-width: 660px) {
+  .hero {
+    height: 55vw;
+  }
+
+  .social_media_handles {
+    
+    padding: 0.5vw 1vw;
+  
+    border-radius: 100%;
+  }
+}
