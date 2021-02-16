@@ -105,3 +105,26 @@
   color: white;
   background-color: black;
 }
+@media only screen and (max-width: 700px) {
+  .flip-box-back h1 {
+    font-size: 1px;
+  }
+  
+  .flip-box-back p{
+    font-size: 1px;
+  }
+  
+  .demo_button {
+
+    font-size: 1px;
+    
+  }
+  
+
+  
+  .code_button {
+
+    font-size: 1px;
+    
+  }
+}
