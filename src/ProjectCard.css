@@ -106,6 +106,10 @@
   background-color: black;
 }
 @media only screen and (max-width: 700px) {
+
+  .flip-box-back{
+    background-color: red;
+  }
   .flip-box-back h1 {
     font-size: 1px;
   }
