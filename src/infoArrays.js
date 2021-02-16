@@ -4,7 +4,7 @@ export let projectArray=[
         description:"Made crona Tracker using Covid-19 API. It shows recovered cases,total cases,new daily cases of every country in the world",techStack:"HTML,CSS,Javascript,Reactjs",codelink:"https://github.com/piyushsingh0992/corona-tracker",demolink:"https://covid-tracker-piyush.netlify.app/"
     },{
     img:"./images/projects/spotify.JPG" ,title:"Spotify Clone"
-    ,description:"Made Spotify Clone using Spotify API and designed the UI from the Scratch",techStack:"HTML,CSS,Javascript,Reactjs,      spotify-web-api-js",codelink:"https://github.com/piyushsingh0992/spotify_clone",demolink:"https://spotify-clone-piyush.netlify.app/"
+    ,description:"Made Spotify Clone using Spotify API and designed the UI from the Scratch",techStack:"spotify-web-api-js,HTML,CSS,Reactjs,Context API,",codelink:"https://github.com/piyushsingh0992/spotify_clone",demolink:"https://spotify-clone-piyush.netlify.app/"
 },
 
 {
