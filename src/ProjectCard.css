@@ -108,7 +108,7 @@
 @media all and (max-width: 700px) {
 
   .flip-box-back{
-    background-color: red;
+    background-color: pink;
   }
   .flip-box-back h1 {
     font-size: 1px;
