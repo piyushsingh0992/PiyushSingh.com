@@ -18,7 +18,7 @@ export default function HomePge() {
         <TextHandler text="My projects" />
 
         <div className="project_grid">
-        {projectArray?.map((project)=>{
+        {projectArray?.slice(0,6).map((project)=>{
           return <ProjectCard img={project.img} title={project.title}  techStack={project.techStack} demolink={project.demolink} codelink={project.codelink}/>
         })}
         </div>

@@ -50,7 +50,7 @@
   transform: rotateY(180deg);
 
   display: grid;
-  grid-template-rows: 8vw  7vw 3vw ;
+  grid-template-rows: 7vw  7vw 3vw ;
 
   width: 20vw;
   height: 18vw;
