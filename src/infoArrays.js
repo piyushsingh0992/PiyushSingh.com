@@ -1,30 +1,39 @@
 export let projectArray=[
     {
-        img:"./images/projects/covid-tracker.jpg",name:"Corona Tracker",description:"",techstack:"HTML,CSS,Javascript,Reactjs",code:"https://github.com/piyushsingh0992/corona-tracker",demo:"https://covid-tracker-piyush.netlify.app/"
+        img:"./images/projects/covid-tracker.jpg",title:"Corona Tracker",
+        description:"Made crona Tracker using Covid-19 API. It shows recovered cases,total cases,new daily cases of every country in the world",techStack:"HTML,CSS,Javascript,Reactjs",codelink:"https://github.com/piyushsingh0992/corona-tracker",demolink:"https://covid-tracker-piyush.netlify.app/"
     },{
-    img:"./images/projects/spotify.JPG" ,name:"Spotify Clone",description:"",techstack:"HTML,CSS,Javascript,Reactjs,spotify-web-api-js",code:"https://github.com/piyushsingh0992/spotify_clone",demo:"https://spotify-clone-piyush.netlify.app/"
+    img:"./images/projects/spotify.JPG" ,title:"Spotify Clone"
+    ,description:"Made Spotify Clone using Spotify API and designed the UI from the Scratch",techStack:"HTML,CSS,Javascript,Reactjs,      spotify-web-api-js",codelink:"https://github.com/piyushsingh0992/spotify_clone",demolink:"https://spotify-clone-piyush.netlify.app/"
 },
 
 {
-    img:"./images/projects/guitar.jpg",name:"Virtual guitar",description:"",techstack:"HTML,CSS,Javascript",code:"https://github.com/piyushsingh0992/Guitar",demo:"https://guitar-app.netlify.app/"
+    img:"./images/projects/guitar.jpg",title:"Virtual guitar",
+    description:"Made a virtul guitar for practicing event handler,Each of the 6 strings play there different respective notes as in a real guitar",techStack:"HTML,CSS,Javascript",codelink:"https://github.com/piyushsingh0992/Guitar",demolink:"https://guitar-app.netlify.app/"
 },
 {
-    img:"./images/projects/pokemon.jpg",name:"Pokemon Sandbox",description:"",techstack:"HTML,CSS,Javascript",code:"https://github.com/piyushsingh0992/pokemon-soundbox",demo:"https://pokemon-soundbox.netlify.app/"
+    img:"./images/projects/pokemon.jpg",title:"Pokemon Sandbox",
+    description:"It's pokemon soundbox and each pokemon button play it's respective pokemon sign",techStack:"HTML,CSS,Javascript",codelink:"https://github.com/piyushsingh0992/pokemon-soundbox",demolink:"https://pokemon-soundbox.netlify.app/"
 },
 {
-    img:"./images/projects/marvel.jpg",name:"Marvel-quiz",description:"",techstack:"HTML,CSS,Javascript,Reactjs,",code:"https://github.com/piyushsingh0992/marvel-quiz",demo:"https://marvel-quiz.netlify.app/"
+    img:"./images/projects/marvel.jpg",title:"Marvel-quiz",
+    description:"It's an subjective marvel quiz with visual representation of the hero's made using Reactjs",techStack:"HTML,CSS,Javascript,Reactjs,",codelink:"https://github.com/piyushsingh0992/marvel-quiz",demolink:"https://marvel-quiz.netlify.app/"
 },
 {
-    img:"./images/projects/anime.jpg",name:"Anime-quiz",description:"",techstack:"HTML,CSS,Javascript,Reactjs,",code:"https://github.com/piyushsingh0992/anime-quiz",demo:"https://anime-quiztaker.netlify.app/"
+    img:"./images/projects/anime.jpg",title:"Anime-quiz",
+    description:"It's an objective quiz app you can choose from four of your favorite anime",techStack:"HTML,CSS,Javascript,Reactjs,",codelink:"https://github.com/piyushsingh0992/anime-quiz",demolink:"https://anime-quiztaker.netlify.app/"
 },
 {
-    img:"./images/projects/books.jpg",name:"Book recommendor",description:"",techstack:"HTML,CSS,Javascript,Reactjs,",code:"https://github.com/piyushsingh0992/book-recommendation-app",demo:"https://books-recommendation-site.netlify.app/"
+    img:"./images/projects/books.jpg",title:"Book recommendor",
+    description:"This app recommend books based on different joner's",techStack:"HTML,CSS,Javascript,Reactjs,",codelink:"https://github.com/piyushsingh0992/book-recommendation-app",demolink:"https://books-recommendation-site.netlify.app/"
 },
 {
-    img:"./images/projects/minion.jpg",name:"Groot translator",description:"",techstack:"HTML,CSS,Javascript",code:"https://github.com/piyushsingh0992/groot-translator",demo:"https://groot-transltor.netlify.app/"
+    img:"./images/projects/minion.jpg",title:"Groot translator",
+    description:"This app translate your normal english to groot language using an API at the backend",techStack:"HTML,CSS,Javascript",codelink:"https://github.com/piyushsingh0992/groot-translator",demolink:"https://groot-transltor.netlify.app/"
 },
 {
-    img:"./images/projects/groot.jpg",name:"Minions translator",description:"",techstack:"HTML,CSS,Javascript",code:"https://github.com/piyushsingh0992/minion-translator",demo:"https://minions-translators.netlify.app/"
+    img:"./images/projects/groot.jpg",title:"Minions translator",
+    description:"This app translate your normal english to minion's language using an API at the backend",techStack:"HTML,CSS,Javascript",codelink:"https://github.com/piyushsingh0992/minion-translator",demolink:"https://minions-translators.netlify.app/"
 },
 ]
 

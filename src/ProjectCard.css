@@ -4,6 +4,8 @@
   width: 22vw;
   height: 20vw;
 
+
+
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -33,7 +35,9 @@
 }
 
 /* Style the front side */
-
+.flip-box-front{
+  box-shadow: 0 4px 8px 0 rgba(192,192,192, 0.2), 0 6px 20px 0 rgba(192,192,192, 0.19);
+}
 .projectCard_img {
   object-fit: contain;
   height: 20vw;
@@ -45,14 +49,15 @@
   color: black;
   transform: rotateY(180deg);
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: grid;
+  grid-template-rows: 8vw  7vw 3vw ;
 
   width: 20vw;
   height: 18vw;
   padding: 1vw;
+  position: relative;
+
+
 }
 
 .flip-box-back h1 {
@@ -60,18 +65,21 @@
 }
 
 .flip-box-back p{
-  font-size: 1.2vw;
+  font-size: 1.1vw;
 }
 
 .demo_button {
   color: white;
-  border: 2px solid black;
-  font-size: 1vw;
+  border: 1px solid black;
+  font-size: 1.3vw;
   border-radius: 99px;
   background-color: black;
   color: white;
   padding: 0.5vw 1vw;
-  margin-right: 1vw;
+ 
+  position: absolute;
+  bottom: 3vw;
+  left:1vw;
 }
 
 .demo_button:hover {
@@ -81,12 +89,16 @@
 
 .code_button {
   color: white;
-  border: 2px solid black;
-  font-size: 1vw;
+  border: 1px solid black;
+  font-size: 1.3vw;
   border-radius: 99px;
   background-color: white;
   color: black;
   padding: 0.5vw 1vw;
+
+  position: absolute;
+  bottom: 3vw;
+  right:1vw;
 }
 
 .code_button:hover {

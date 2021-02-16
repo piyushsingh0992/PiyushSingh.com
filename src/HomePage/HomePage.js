@@ -7,7 +7,7 @@ import BlogCard from "../BlogCard.js";
 import { Link } from "react-router-dom";
 
 import "./HomePage.css";
-import {blogArray} from "../infoArrays.js"
+import {blogArray,projectArray} from "../infoArrays.js"
 import "../grid.css";
 
 export default function HomePge() {
@@ -18,17 +18,9 @@ export default function HomePge() {
         <TextHandler text="My projects" />
 
         <div className="project_grid">
-          <ProjectCard img="./images/projects/covid-tracker.jpg" title="Amazone Clone" />
-          <ProjectCard img="./images/projects/spotify.JPG" title="Corona tracker"/>
-          <ProjectCard img="./images/projects/guitar.jpg" title="Virtual guitar" />
-          <ProjectCard img="./images/projects/pokemon.jpg" title="Marvel Quiz" />
-          <ProjectCard img="./images/projects/marvel.jpg" title="Spotify clone" />
-          <ProjectCard img="./images/projects/anime.jpg" title="Pokemon Soundbox"/>
-          <ProjectCard img="./images/projects/books.jpg" title="Pokemon Soundbox"/>
-          <ProjectCard img="./images/projects/minion.jpg" title="Pokemon Soundbox"/>
-          <ProjectCard img="./images/projects/groot.jpg" title="Pokemon Soundbox"/>
-          <ProjectCard img="./images/projects/" title="Pokemon Soundbox"/>
-          <ProjectCard img="./images/projects/" title="Pokemon Soundbox"/>
+        {projectArray?.map((project)=>{
+          return <ProjectCard img={project.img} title={project.title}  techStack={project.techStack} demolink={project.demolink} codelink={project.codelink}/>
+        })}
         </div>
         <Link to="/Projects">
           <button className="viewall_btn">View All Projects </button>

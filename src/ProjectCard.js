@@ -15,18 +15,22 @@ export default function ProjectCard(props) {
     </div>
     <div className="flip-box-back">
     <h1>{props.title}</h1>
-    <p>dsddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdddddddddddddddddddddddsadas</p>
-    <p><strong>Techstack : </strong>HTML,CSS,Javascript,Reactjs,spotify-web-api-js</p>
+    <div>
+    <p><strong>Techstack : </strong></p>
+    <p>{props.techStack}</p>
+    </div>
         <div className="projectCard_btns">
           <a
             className="demo_button"
-            href="https://discord.com/channels/713418735532114034/713453224648245313"
+            href={props.demolink} 
+            target="_blank"
           >
             Live Demo
           </a>
           <a
             className="code_button"
-            href="https://discord.com/channels/713418735532114034/713453224648245313"
+            href={props.codelink}
+            target="_blank"
           >
             source code
           </a>
