@@ -1,7 +1,7 @@
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
   background-color: transparent;
-  width: 20vw;
+  width: 22vw;
   height: 20vw;
 
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -34,11 +34,6 @@
 
 /* Style the front side */
 
-.flip-box-front {
-  background-color: red;
-  overflow: hidden;
-}
-
 .projectCard_img {
   object-fit: contain;
   height: 20vw;
@@ -52,11 +47,20 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 20vw;
+  height: 18vw;
+  padding: 1vw;
 }
 
-.flip-box-back h2 {
-  font-size: 2vw;
+.flip-box-back h1 {
+  font-size: 2.3vw;
+}
+
+.flip-box-back p{
+  font-size: 1.2vw;
 }
 
 .demo_button {

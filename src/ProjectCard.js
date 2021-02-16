@@ -14,7 +14,9 @@ export default function ProjectCard(props) {
       />
     </div>
     <div className="flip-box-back">
-    <h2>{props.title}</h2>
+    <h1>{props.title}</h1>
+    <p>dsddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdddddddddddddddddddddddsadas</p>
+    <p><strong>Techstack : </strong>HTML,CSS,Javascript,Reactjs,spotify-web-api-js</p>
         <div className="projectCard_btns">
           <a
             className="demo_button"
